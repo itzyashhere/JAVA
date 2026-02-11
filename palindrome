@@ -1,0 +1,13 @@
+public static void main(String args[]){
+        System.out.println("hi");
+
+        Scanner sc=new Scanner(System.in);
+        String s=new String();
+        s=sc.nextLine();
+
+        System.out.println(palindrome(s));
+
+       
+        
+    }
+}
